@@ -1,0 +1,78 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  height: 58vh;
+  max-width: 38vh;
+  background-color: black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.output {
+  width: 100%;
+  border: none;
+  background-color: rgb(61, 62, 63);
+}
+#display {
+  padding: 25px 59px;
+  padding-left: 5px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 30px;
+  text-align: left;
+}
+
+input:focus {
+  border: none;
+  border-color: transparent;
+}
+
+.numbers {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: rgb(61, 62, 63);
+}
+
+button:hover {
+  background-color: rgb(97, 93, 93);
+}
+
+.btn {
+  background-color: orange;
+}
+
+.btn:hover {
+  background-color: rgb(236, 185, 89);
+}
+.cal-btn {
+  width: 40vh;
+  border-radius: 15px;
+  background-color: orange;
+}
+.cal-btn:hover {
+  background-color: rgb(236, 185, 89);
+}
